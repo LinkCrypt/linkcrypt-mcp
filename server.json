@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.getlinkcrypt/linkcrypt",
+  "title": "Link Crypt",
+  "description": "Search, save, tag, and summarize the links in your Link Crypt bookmark library.",
+  "version": "1.0.0",
+  "websiteUrl": "https://getlinkcrypt.com/integrations/mcp",
+  "repository": {
+    "url": "https://github.com/LinkCrypt/linkcrypt-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://mcp.getlinkcrypt.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getlinkcrypt.com/mcp"
+    }
+  ]
+}
